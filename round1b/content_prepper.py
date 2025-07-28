@@ -56,7 +56,8 @@ if __name__ == "__main__":
         sections = prepare_document_content(pdf_files_to_process)
 
         if sections:
-            print(f"\n✅ Total sections extracted from all documents: {len(sections)}")
+            print(f"\n Total sections extracted from all documents: {len(sections)}")
+
             
             for section in sections[:2]:
                 section['content'] = section['content'][:200] + "..." if len(section['content']) > 200 else section['content']
