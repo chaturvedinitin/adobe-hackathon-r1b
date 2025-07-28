@@ -61,4 +61,4 @@ if __name__ == "__main__":
     output_path = os.path.join(output_dir, "challenge1b_output.json")
     print(f"Step 3: Generating final output at {output_path}...")
     generate_final_json(persona, job, relevant_sections, pdf_files, output_path)
-    print("\n✅ Round 1B processing complete!")
+    print("\n Round 1B processing complete!")
